@@ -3,7 +3,10 @@ services:
   app:
     build: .
     tty: true
+    user: ryosk7
     volumes:
       - "$PWD:/app"
     ports:
       - "3000:3000"
+    privileged: true
+    pid: "host"
