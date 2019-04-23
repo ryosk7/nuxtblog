@@ -1,24 +1,9 @@
-## Nuxt app on Docker
-The first nuxt sample app.
-### How to start
-```sh
-$ docker-compose build
-$ docker-compose up -d
-$ docker-compose exec app sh
-```
-### And docker container
-```sh
-#docker container inside
-$ vue init nuxt-community/starter-templat# Untitled (3)e
-$ yarn install
-$ yarn run dev
-```
-### You can edit on local editor (VS Code, Atom, ...etc)
-```sh
-sudo chown -R $USER:$USER .
-```
-### Then, Go to Browser, and type
-```
-http://localhost:3000
-```
-Let's start coding on Docker! :whale:
+# LAYOUTS
+
+This directory contains your Application Layouts.
+
+More information about the usage of this directory in the documentation:
+https://nuxtjs.org/guide/views#layouts
+
+**This directory is not required, you can delete it if you don't want to use it.**
+

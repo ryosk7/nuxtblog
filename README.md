@@ -1,23 +1,24 @@
-# nuxtblog
-
-> My first nuxt app.
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
+## Nuxt app on Docker
+The first nuxt sample app.
+### How to start
+```sh
+$ docker-compose build
+$ docker-compose up -d
+$ docker-compose exec app sh
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
+### And docker container
+```sh
+#docker container inside
+$ vue init nuxt-community/starter-templat# Untitled (3)e
+$ yarn install
+$ yarn run dev
+```
+### You can edit on local editor (VS Code, Atom, ...etc)
+```sh
+sudo chown -R $USER:$USER .
+```
+### Then, Go to Browser, and type
+```
+http://localhost:3000
+```
+Let's start coding on Docker! :whale:
