@@ -2,10 +2,10 @@
   <section class="container">
     <div>
       <h1 class="title">
-        nuxtblog
+        NuxtBlog
       </h1>
       <h2 class="subtitle">
-        初めてのNuxt!!
+        Nuxt on Docker on Ubuntu!!
       </h2>
     </div>
   </section>
