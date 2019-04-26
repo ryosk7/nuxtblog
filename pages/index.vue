@@ -12,10 +12,10 @@
 </template>
 
 <script>
-import AppLogo from '~/components/AppLogo.vue'
+import NavBar from '~/layouts/navbar.vue'
 
 export default {
-  
+  layout: 'navbar'
 }
 </script>
 
