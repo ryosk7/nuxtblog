@@ -9,7 +9,7 @@ $ docker-compose exec app sh
 ### And docker container
 ```sh
 #docker container inside
-$ vue init nuxt-community/starter-templat# Untitled (3)e
+$ vue init nuxt-community/starter-template
 $ yarn install
 $ yarn run dev
 ```
